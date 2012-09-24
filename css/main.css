@@ -299,7 +299,7 @@ textarea {
 
 
 body{
-    background-color:black;
+    background-color:black; height: 100%; width: 100%;
 }
 
 #container{ width:333px; margin:6% auto; border:solid 1px white; position: relative; }
