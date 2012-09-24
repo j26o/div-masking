@@ -296,3 +296,22 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+body{
+    background-color:black;
+}
+
+#container{ width:333px; margin:6% auto; border:solid 1px white; position: relative; }
+.before,.after { position:absolute; top:0; left:0; z-index: 1;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.before{ border-right: solid 1px white;}
+
+.slider { display: block; width:34px; height:34px; z-index: 2; background:url(../img/slider.png) center center no-repeat; position: absolute; cursor: pointer; }
